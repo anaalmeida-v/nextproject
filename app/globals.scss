@@ -1,3 +1,5 @@
+@import "./mixins/colors.scss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,4 +12,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  background-color: $purple-color;
+  color: $white-color;
 }
